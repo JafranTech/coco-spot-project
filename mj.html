@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight</title>
+    
+        <link rel="stylesheet" href="mj.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    </head>
+<body>
+    <header>
+        <h1 style="color: rgb(107, 162, 51);"> <strong>THE CoCo SPoT</strong> </h1>
+        <p class="moving-text" style="color: #f8f8f8;"><marquee>**********************Welcome to The Tea Heaven****************************</marquee></p>
+    </header>
+    <div class="container">
+        <section class="menu">
+            <div class="menu-item">
+                <img src="img/tea.jpeg" ; height="300px" alt="Espresso">
+                <h2 class="blink">TEA</h2>
+                <p > <strong>" Tea is a ritual, an art that nourishes the soul. "With each cup of tea, I  serenity. </strong>"</p>
+            
+            </div>
+            <div class="menu-item">
+                <img src="img/coco.jpeg " height="300px" alt="Latte">
+                <h2 class="blink">COCONUT TEA</h2>
+                <p>
+                   <strong> Coconut tea is a refreshing beverage made by infusing tea with coconut milk or coconut water, offering a creamy and tropical flavor.
+                </strong>
+
+
+
+                </p>
+            </div>
+            <div class="menu-item">
+                <img src= "img/coco1.jpeg " height="300px" >
+                <h2 class="blink">COCONUT TEA JUICE</h2>
+                <p>
+                    <strong>Coconut tea juice is a refreshing drink made by blending coconut water with tea, creating a hydrating and flavorful fusion.</strong>
+                </p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="blink" style="color: #f6f6f6;"><strong>ONLINE ORDER</strong></h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                
+                <form action="#">
+                    <label for="drink" style="color: #eae1e1;">Select a drink:</label>
+                    <select id="drink" name="drink">
+                        <option value="tea">TEA</option>
+                        <option value="COCONUT TEA">COCONUT TEA</option>
+                        <option value="coconut_tea JUICE">Coconut Tea JUICE</option>
+                        
+                    </select>
+            
+                    <br><br>
+            
+                    <input type="submit" value=" order Submit">
+                </form>
+                
+            </form>
+        </section>
+    </div>
+    
+   
+    <footer>
+        <p style="color: #f6f6f6;">&copy; THE CoCo SPoT. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

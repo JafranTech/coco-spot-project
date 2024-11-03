@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-image: url("bgg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+.img{
+   display:inline-block;
+}
+.img:hover{
+    color: pink;
+    transform: translateY(-20px);
+    box-shadow: 20px;
+}
+.menu{
+    text-align: center;  
+    padding: 50px;
+    
+}
+.one{
+    margin-top: 40px;
+   
+}
+.contact{
+    background-color: pink;
+    
+}
+table{
+    padding: 30px;
+    display: inline;
+}
+.info{
+    text-align: center;
+    padding: 30px;
+}
+.send{
+    text-align: center;
+    margin-left: 35%;
+    width: 400px; 
+    background-color: palevioletred; 
+    color: black;  
+}

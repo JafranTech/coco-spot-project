@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type=x-icon" href="img/tea.jpeg">
     <title>Café Delight</title>
+
     
-        <link rel="stylesheet" href="mj.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <style>
+            
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #070707;
+            background-image: url("C:\Users\HP\OneDrive\Desktop\mj\img\bg.jpegzz");
+            
+                
+                  
+            
+          
+           
+        }
+        header {
+            background-color: #e98401; 
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            background-image: url("/img/head.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .menu-item {
+            flex: 1;
+            max-width: 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #f9f7f7;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            color: #eae1e1;
+        }
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #131111;
+            text-align: center;
+            padding: 10px 0;
+        }
+        form {
+            margin: 20px 0;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #d00000;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #6f4f28;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #5a3e1a;
+        }
+        .blink {
+            animation: blink-animation 1s step-end infinite;
+        }
+
+        @keyframes blink-animation {
+            50% {
+                opacity: 0;
+            }
+        }
+        .moving-text {
+            white-space: nowrap;
+            animation: move-text 7s linear infinite;
+        }
+
+        @keyframes move-text {
+            0% {
+                transform: translateX(100%); /* Start from right */
+            }
+            100% {
+                transform: translateX(-100%); /* Move to the left */
+            }
+        }
+        
+        
+
+
+        </style>
 
     </head>
 <body>
